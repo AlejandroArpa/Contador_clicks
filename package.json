@@ -1,5 +1,5 @@
 {
-  "homepage":"https://AlejandroArpa.github.io/Contador-clicks",
+  "homepage": "https://AlejandroArpa.github.io/Contador-clicks",
   "name": "contador_de_clics",
   "version": "0.1.0",
   "private": true,
@@ -8,11 +8,12 @@
     "react-dom": "^18.2.0",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
-
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
