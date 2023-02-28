@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Logo from '../src/Images/fcc_primary_large.svg'
 import Boton from './components/boton';
 import Contador from './components/Contador';
 import {useState} from 'react';
@@ -24,11 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className='freecodecamp-logo-contenedor'>
-          <img 
-          className='freecodecamp-logo'
-          src={Logo}
-          alt='Logo de freeCodeCamp'
-          />
+          
 
         </div>
         <div className='contenedor-ppal'>
